@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?jppeo6');
+    src:    url('fonts/icomoon.eot?jppeo6#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?jppeo6') format('truetype'),
+        url('fonts/icomoon.woff?jppeo6') format('woff'),
+        url('fonts/icomoon.svg?jppeo6#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-study:before {
+    content: "\e91c";
+}
+.icon-location_city:before {
+    content: "\e91d";
+}
+.icon-lock:before {
+    content: "\e90c";
+}
+.icon-menu:before {
+    content: "\e917";
+}
+.icon-search:before {
+    content: "\e902";
+}
+.icon-chevron-right:before {
+    content: "\e918";
+}
+.icon-chevron-left:before {
+    content: "\e919";
+}
+.icon-chevron-down:before {
+    content: "\e91a";
+}
+.icon-chevron-up:before {
+    content: "\e91b";
+}
+.icon-envelope:before {
+    content: "\e900";
+}
+.icon-paper-plane:before {
+    content: "\e901";
+}
+.icon-home:before {
+    content: "\e903";
+}
+.icon-cart:before {
+    content: "\e904";
+}
+.icon-phone:before {
+    content: "\e905";
+}
+.icon-location2:before {
+    content: "\e906";
+}
+.icon-clock:before {
+    content: "\e907";
+}
+.icon-calendar:before {
+    content: "\e908";
+}
+.icon-printer:before {
+    content: "\e909";
+}
+.icon-mobile:before {
+    content: "\e90a";
+}
+.icon-user:before {
+    content: "\e90b";
+}
+.icon-aid-kit:before {
+    content: "\e90d";
+}
+.icon-spoon-knife:before {
+    content: "\e90e";
+}
+.icon-heart:before {
+    content: "\e90f";
+}
+.icon-google-plus:before {
+    content: "\e910";
+}
+.icon-facebook:before {
+    content: "\e911";
+}
+.icon-instagram:before {
+    content: "\e912";
+}
+.icon-twitter:before {
+    content: "\e913";
+}
+.icon-tumblr:before {
+    content: "\e914";
+}
+.icon-linkedin2:before {
+    content: "\e915";
+}
+.icon-pinterest:before {
+    content: "\e916";
+}
+

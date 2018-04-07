@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic-ext);
+
+.nw__container {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: inline-block;
+    min-width: 258px;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+.nw__container:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.nw__container .nw__item {
+    padding: 10px;
+    float: left;
+}
+.nw__container .nw__item .nw__item_title {
+    margin: 0 0 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.nw__container .nw__item .nw__item_online,
+.nw__container .nw__item .nw__item_total,
+.nw__container .nw__item .nw__item_graph {
+    float: left;
+    min-width: 72px;
+}
+.nw__container .nw__item .nw__item_graph .nw__item_graph_image {
+    padding-top: 5px;
+}
+.nw__container .nw__item .nw__item_total {
+    margin: 0 10px;
+}
+.nw__container .nw__item .nw__item_devices_numb,
+.nw__container .nw__item .nw__item_total_numb,
+.nw__container .nw__item .nw__item_online_numb {
+    font-size: 19px;
+}
+.nw__container .nw__item .nw__item_online_numb {
+    color: #08b15b;
+}
+.nw__container .nw__item .nw__item_health_text,
+.nw__container .nw__item .nw__item_devices_text,
+.nw__container .nw__item .nw__item_total_text,
+.nw__container .nw__item .nw__item_online_text {
+    color: #000;
+    font-size: 9px;
+    text-transform: uppercase;
+}
+
+/* Health blocks */
+.nw__container .nw__item .nw__item_health {
+    padding-top: 7px;
+    padding-bottom: 8px;
+}
+.nw__container .nw__item .nw__item_health:after {
+    content: ' ';
+    display: block;
+    clear: both;
+    float: none;
+}
+.nw__container .nw__item .nw__item_health .nw__item_health_item {
+    width: 10px;
+    height: 12px;
+    float: left;
+    margin-left: 3px;
+    font-size: 0;
+}
+.nw__container .nw__item .nw__item_health .nw__item_health_item:first-child {
+    margin-left: 0;
+}
+.nw__container .nw__item .nw__item_health .nw__item_health_item.orange {
+    background: rgba(236, 133, 17, .7);
+    border-bottom: 2px solid rgba(236, 133, 17, 1);
+}
+.nw__container .nw__item .nw__item_health .nw__item_health_item.green {
+    background: rgba(13, 171, 93, .7);
+    border-bottom: 2px solid rgba(13, 171, 93, 1);
+}

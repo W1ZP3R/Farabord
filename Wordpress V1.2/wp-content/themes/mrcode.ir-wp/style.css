@@ -1,0 +1,121 @@
+/*
+Theme Name: MrCode WP
+Description: قالب تبدیل شده از HTML به وردپرس
+Version: 1.0
+Author: MrCode.ir
+Author URI: http://mrcode.ir
+*/
+
+@font-face {
+    font-family: 'WYekan';
+    src: url('fonts/yekan-webfont.eot');
+    src: url('fonts/yekan-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/yekan-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	color:#5f5f5f;
+	font:normal 16px/1.8em WYekan, sans-serif;
+	direction : rtl;
+}
+html, .main { padding:0; margin:0; background:#dedede;}
+.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
+h1 { margin:0; padding:0; color:#fff; font: normal 70px/1.2em WYekan, sans-serif; text-transform:uppercase; text-align:center;}
+h1 a, h1 a:hover { color:#fff; text-decoration:none;}
+h1 span { color:#007236;}
+h1 small { font: normal 19px/1.2em WYekan, sans-serif;}
+h2 { font:normal 24px WYekan, sans-serif; color:#4b4b4b; padding:8px 0; margin:8px 0;}
+p { margin:8px 0; padding:0 0 8px 0; font: normal 14px/1.8em WYekan, sans-serif;}
+a { color:#7baf30; text-decoration:none;}
+
+.header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content .sidebar { margin:0; padding:0;}
+.content_resize, .fbg_resize, .footer_resize { margin:0 auto; padding:0 40px; width:890px;}
+
+.post h2 a{
+	font:normal 24px WYekan, sans-serif;
+	color:#4b4b4b;
+	padding:8px 0;
+	margin:8px 0;
+}
+
+/* header */
+.header { background: url(images/header_bg.jpg) repeat-x center top;}
+.header_resize { margin:0 auto; padding:0; width:970px; height:337px;}
+.header .logo { padding: 60px 0 0;}
+
+/* menu */
+.menu_nav { padding-right: 20px; float: right; width:auto;}
+.menu_nav ul { list-style:none;}
+.menu_nav ul li { margin:0 4px; float: right;}
+.menu_nav ul li a { display:block; margin:0; padding:23px 24px; color:#fff; text-decoration:none;}
+.menu_nav ul li.active a, .menu_nav ul li a:hover { background:url(images/menu_a.gif) repeat top;}
+
+/* search */
+.searchform { float: left; width:auto;}
+#formsearch { margin:0; padding: 12px 0px 0 20px;}
+#formsearch span { display:block; margin:6px 0; padding:0 8px 0 11px !important; padding:0 4px 0 6px; float:right; width:183px; background:#fff url(images/search.gif) no-repeat top left;}
+#formsearch input.editbox_search { margin:0; padding:5px 0; float:left; width:180px; height:20px; border:none; background:none; font:normal 13px/20px WYekan, sans-serif; color:#a8acb2;}
+#formsearch input.button_search { margin:6px 0 0 0; padding:0; border:none; float:right;}
+
+/* content */
+.content_resize { padding-left: 0; padding-top:16px; width:930px; background-color:#fff;}
+.content .mainbar { float: right; width:630px;}
+.content .mainbar img { margin-bottom:24px; padding:4px; border:1px solid #b7b7b7; background-color:#fff;}
+.content .mainbar img.fl { float:left; margin-right:12px;}
+.content .mainbar .post, .content .sidebar .gadget { margin:0; padding:0 0 16px 0;}
+.content .mainbar .post p {
+	font-size : 16px;
+}
+.content .sidebar { float: left; width:276px;}
+ul.sb_menu, ul.ex_menu { margin:0; padding:0; list-style:none; color:#959595;}
+ul.sb_menu li, ul.ex_menu li { margin:0; background: url(images/li.gif) no-repeat right 5px;}
+ul.sb_menu li { padding:4px 0; border-bottom:1px solid #e3e3e3; width:220px;}
+.gadget ul, .fbg_resize ul , ul.ex_menu { margin:0; padding:0; list-style:none; color:#959595;}
+.gadget ul li, .fbg_resize ul li, ul.ex_menu li { margin:0; background: url(images/li.gif) no-repeat right 5px;}
+.gadget ul li, .fbg_resize ul li { padding:4px 0; border-bottom:1px solid #e3e3e3; width:220px;}
+
+li {}
+ul.ex_menu li { padding:4px 0 8px;}
+.gadget ul li a, .fbg_resize ul li a, ul.ex_menu li a { color:#5f5f5f; text-decoration:none; margin-right: 0px; padding-right: 20px;}
+.gadget ul li a:hover,.fbg_resize ul li a:hover, ul.ex_menu li a:hover { color:#7baf30; font-weight:bold; background: url(images/li_a.gif) no-repeat right 0px;}
+.gadget ul li a:hover, .fbg_resize ul li a:hover { text-decoration:underline;}
+ul.sb_menu li a, ul.ex_menu li a { color:#5f5f5f; text-decoration:none; margin-right: 0px; padding-right: 20px;}
+ul.sb_menu li a:hover, ul.ex_menu li a:hover { color:#7baf30; font-weight:bold; background: url(images/li_a.gif) no-repeat right 0px;}
+ul.sb_menu li a:hover { text-decoration:underline;}
+ul.ex_menu li a:hover { text-decoration:none;}
+
+.recentcomments a, .recentcomments a:hover, li.recentcomments {background : none!important;}
+/* subpages */
+.content .mainbar .comment { margin:0; padding:16px 0 0 0;}
+.content .mainbar .comment img.userpic { border:1px solid #dedede; margin:10px 16px 0 0; padding:0; float:left;}
+
+/* fbg */
+.fbg_resize { background-color:#fff; padding:24px 40px;}
+.fbg img { border:1px solid #d6d6d6;}
+.fbg .col { margin:0; float: right;}
+.fbg .c1 { padding: 0px 0px 0 16px; width:296px;}
+.fbg .c2 { padding:0 16px; width:240px;}
+.fbg .c3 { padding: 0 16px 0 0px; width:290px;}
+.fbg .c1 img { margin: 8px 0px 4px 16px; float: right;}
+
+/* footer */
+.footer { padding:16px;}
+.footer p.lf { margin:0; padding:4px 0; float: left; width:auto; line-height:1.5em;}
+.fmenu ul, .fmenu { margin:0; padding:2px 0; list-style:none; float: right; width:auto;}
+.fmenu li { margin:0; padding:0 4px; float: right;}
+.fmenu li a { color:#5f5f5f; text-decoration:none; padding:2px 6px;}
+.fmenu li a:hover, .fmenu ul li.active a { color:#7baf30;}
+.fmenu li a:hover { text-decoration:underline;}
+
+/* form */
+ol { list-style:none;}
+ol li { display:block; clear:both;}
+ol li label { display:block; margin:0; padding:16px 0 0 0;}
+ol li input.text { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:5px 2px; height:16px; background:#fff;}
+ol li textarea { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:2px; background:#fff;}
+ol li .send { margin:16px 0 0 0;}
